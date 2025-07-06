@@ -25,24 +25,22 @@
     </header>
 
     <main>
-        <div class="container">
-            <h2>Your Cart</h2>
-            <!-- If cart is empty -->
-            <p>No items in your cart.</p>
+     <div class="container">
+       <h2>Your Cart</h2>
 
-            <!-- Sample cart item (can be populated using JS) -->
-            <div class="product-card">
-                <h3>Carrots</h3>
-                <p>Qty: 2 kg</p>
-                <p>Price: ₹100</p>
-                <button class="btn tertiary-btn">Remove</button>
-            </div>
-
-            <div class="text-center" style="margin-top: 20px;">
-                <button class="btn primary-btn">Proceed to Checkout</button>
-            </div>
+        <!-- Placeholder where items will be injected -->
+        <div id="cart-items">
+          <p>No items in your cart.</p>
         </div>
-    </main>
+
+        <div id="cart-total" style="margin-top: 20px;"></div>
+
+        <div class="text-center" style="margin-top: 20px;">
+          <button class="btn primary-btn" id="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+   </main>
+
 
     <footer>
         <div class="container">
