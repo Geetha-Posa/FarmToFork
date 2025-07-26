@@ -1,0 +1,4 @@
+# ignore node models directory
+node_modules/
+
+.env
