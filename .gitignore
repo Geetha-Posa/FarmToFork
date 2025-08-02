@@ -2,3 +2,6 @@
 node_modules/
 
 .env
+
+# system files
+.DS_Store
