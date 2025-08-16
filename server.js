@@ -11,6 +11,14 @@ connectDB();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// Routes
+const userRoutes = require('./routes/userRoutes');
+const productRoutes = require('./routes/productRoutes');
+
+app.use('/api/users', userRoutes);       // signup & signin
+app.use('/api/products', productRoutes); // product routes
+
+
 
 // Serve static files from "public" directory
 app.use(express.static(path.join(__dirname, 'public')));
