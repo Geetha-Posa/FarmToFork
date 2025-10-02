@@ -3,6 +3,10 @@
 **Farm to Fork** is a full-stack web application designed to bridge the gap between farmers and consumers. It enables farmers to sell their products directly, while consumers can easily browse, purchase, and manage their orders online. The app aims to simplify the farm-to-consumer supply chain, ensuring fresher products and fair pricing.  
 
 ---
+## 👩‍💻 Developed By  
+Geetha Posa  
+
+---
 
 ## 🚀 Key Features  
 
